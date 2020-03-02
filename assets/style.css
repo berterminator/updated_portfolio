@@ -1,0 +1,89 @@
+body{
+    font-family: sans-serif;
+}
+
+header{
+    height: 90px;
+    background-color: lightgray;
+}
+
+header::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+#header-div{
+    width: 954px;
+    margin: 0px auto;
+    height: 70px;
+  }
+
+#header-left{
+    display: inline;
+    float: left; 
+}
+
+#header-right{
+    display: inline;
+    float: right;
+    margin: 25px 0px 25px 30px;
+}
+
+
+h1{
+    display: inline;
+}
+
+h2{
+    display: inline;
+    margin: 0px 0px 0px 20px
+}
+
+ul{
+    display: inline;
+    padding: 0px;
+}
+ 
+li{
+    float: left;
+    margin: 0px 20px 0px 20px;
+}
+
+
+.nav-element{
+    display: inline;
+    float: left;
+}
+
+#about-me-body::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+#about-me-body{
+  width: 954px;
+  margin: 40px auto;
+}
+
+
+#user-image{
+    height: 170px;
+    display: inline;
+    float: left;
+}
+
+
+.about-paragraph{
+    display: inline;
+    float: left;
+}
+
+footer{
+    text-align: center; 
+}
+
+p{
+    text-align: justify;
+}
